@@ -13,14 +13,13 @@ int main() {
 
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
-            arr[i][j] = rand() % 100; 
+            arr[i][j] = rand() % 10 - 10; 
         }
     }
 
-    std::cout << "Массив 5x8:\n";
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
-            std::cout << std::setw(4) << arr[i][j];
+            std::cout << std::setw(5) << arr[i][j];
         }
         std::cout << std::endl;
     }
