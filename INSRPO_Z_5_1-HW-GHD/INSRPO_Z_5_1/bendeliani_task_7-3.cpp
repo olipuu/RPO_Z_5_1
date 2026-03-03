@@ -5,13 +5,11 @@
 using namespace std;
 
 int main() {
-    system("chcp 1251");
     const int ROWS = 7;
     const int COLS = 5;
     int arr[ROWS][COLS];
 
     srand(time(0));
-
 
     for (int i = 0; i < ROWS; i++) {
         for (int j = 0; j < COLS; j++) {
@@ -21,12 +19,11 @@ int main() {
 
             do {
                 repeat = false;
-                num = rand() % 100 + 1; 
-
+                num = rand() % 100 + 1;
 
                 for (int x = 0; x < ROWS; x++) {
                     for (int y = 0; y < COLS; y++) {
-                        if (arr[x][y] == num) {
+                        if ((x < i || (x == i && y < j)) && arr[x][y] == num) {
                             repeat = true;
                         }
                     }
@@ -38,34 +35,39 @@ int main() {
         }
     }
 
+    cout << "Array 7x5:\n\n";
 
-    cout << "Массив:\n";
+    cout << "    ";
+    for (int j = 0; j < COLS; j++) {
+        cout << j << "    ";
+    }
+    cout << "\n";
+
     for (int i = 0; i < ROWS; i++) {
+        cout << i << " | ";
         for (int j = 0; j < COLS; j++) {
-            cout << arr[i][j] << "\t";
+            cout << arr[i][j] << "  ";
         }
-        cout << endl;
+        cout << "\n";
     }
 
+    int rowIndex;
+    cout << "\nEnter row index (0-6): ";
+    cin >> rowIndex;
 
-    int index;
-    cout << "\nВведите индекс строки (0-6): ";
-    cin >> index;
-
-    if (index >= 0 && index < ROWS) {
-        cout << "Строка: ";
+    if (rowIndex >= 0 && rowIndex < ROWS) {
+        cout << "Row " << rowIndex << ": ";
         for (int j = 0; j < COLS; j++) {
-            cout << arr[index][j] << " ";
+            cout << arr[rowIndex][j] << " ";
         }
-        cout << endl;
+        cout << "\n";
     }
     else {
-        cout << "Неверный индекс\n";
+        cout << "Invalid index\n";
     }
 
-
     int value;
-    cout << "\nВведите число для поиска: ";
+    cout << "\nEnter value to search: ";
     cin >> value;
 
     bool found = false;
@@ -73,14 +75,14 @@ int main() {
     for (int i = 0; i < ROWS; i++) {
         for (int j = 0; j < COLS; j++) {
             if (arr[i][j] == value) {
-                cout << "Найдено по координатам [" << i << "][" << j << "]\n";
+                cout << "Found at [" << i << "][" << j << "]\n";
                 found = true;
             }
         }
     }
 
     if (!found) {
-        cout << "Число не найдено\n";
+        cout << "Value not found\n";
     }
 
     return 0;
