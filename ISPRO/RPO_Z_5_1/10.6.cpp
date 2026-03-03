@@ -1,5 +1,6 @@
 #include <iostream>
-void getMenu() {
+void getMenu() 
+{
 	std::cout << "\tmenu:\n1.max verstappen\n2.AVG\n3.abs sum\n4.(int) sum\n0.exit\n-->";
 }
 template <typename T>
