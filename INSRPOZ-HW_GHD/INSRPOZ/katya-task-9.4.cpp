@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 int main() {
     int n;
@@ -35,4 +35,4 @@ int main() {
 
     delete[] arr;
     return 0;
-}
+}*/
