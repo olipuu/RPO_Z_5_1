@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="5.5_adam.cpp" />
     <ClCompile Include="6.3_adam.cpp" />
+    <ClCompile Include="9.2_adam.cpp" />
     <ClCompile Include="test_adam.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
