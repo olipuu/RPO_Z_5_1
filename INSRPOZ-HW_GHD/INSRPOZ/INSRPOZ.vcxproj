@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="katya-task-7.4.cpp" />
+    <ClCompile Include="katya-task-9.4.cpp" />
     <ClCompile Include="katya_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

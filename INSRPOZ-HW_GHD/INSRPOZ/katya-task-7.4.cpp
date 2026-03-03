@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <ctime>
 
 int main() {
@@ -39,4 +39,4 @@ int main() {
     else std::cout << "Error!\n";
 
     return 0;
-}
+}*/
