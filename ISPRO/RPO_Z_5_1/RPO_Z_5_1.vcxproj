@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="kozhokar.cpp" />
+    <ClCompile Include="10.6.cpp" />
+    <ClCompile Include="11.4.cpp" />
+    <ClCompile Include="9.5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
