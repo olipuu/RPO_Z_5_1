@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="INSRPO_Z_5_1/INSRPO_Z_5_1.vcxproj" />
+</Solution>

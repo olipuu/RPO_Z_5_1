@@ -15,20 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="Kozhokar.cpp">
-=======
-    <ClCompile Include="test_adam.cpp">
+    <ClCompile Include="katya_test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="5.5_adam.cpp">
+    <ClCompile Include="katya-task-7.4.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="6.3_adam.cpp">
+    <ClCompile Include="katya-task-9.4.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="9.2_adam.cpp">
->>>>>>> 54891cfa029973eae10980d949028ebbdc8839a0
+    <ClCompile Include="katya-task-10.3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

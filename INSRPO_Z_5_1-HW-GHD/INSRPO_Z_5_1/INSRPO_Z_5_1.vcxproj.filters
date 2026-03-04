@@ -15,20 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="Kozhokar.cpp">
-=======
-    <ClCompile Include="test_adam.cpp">
+    <ClCompile Include="bendeliani_task_12-7.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="5.5_adam.cpp">
+    <ClCompile Include="bendeliani_task_7-3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="6.3_adam.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="9.2_adam.cpp">
->>>>>>> 54891cfa029973eae10980d949028ebbdc8839a0
+    <ClCompile Include="bendeliani_task_9-6.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
